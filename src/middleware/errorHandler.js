@@ -1,5 +1,5 @@
 function errorHandlerPokemon(err, req, res, next){
-    if (!err.status){
+    if (!err.status){  
         res.status = 500
         res.send(err)
     }
